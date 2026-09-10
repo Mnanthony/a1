@@ -1,0 +1,39 @@
+body {
+    width: 500px;
+    margin-left: 40px;
+    margin-top: 15px;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 15px;
+    line-height: 1.05;
+}
+
+img {
+    width: 350px;
+    height: auto;
+    display: block;
+    margin-bottom: 5px;
+}
+
+p {
+    width: 500px;
+    margin: 0 0 8px 0;
+    text-align: left;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.highlight {
+    background-color: orange;
+}
+
+.red-text {
+    color: red;
+    font-weight: bold;
+}
+
+a {
+    display: block;
+    margin-top: 20px;
+}
