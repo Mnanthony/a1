@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Form Validation</title>
+</head>
+
+<body>
+
+    <h1>Registration Form</h1>
+
+    <form id="myForm">
+
+        <!-- Username -->
+        <label id="usernameLabel" for="username">Username:</label>
+
+        <input type="text" id="username" name="username">
+
+        <br><br>
+
+
+        <!-- Email -->
+        <label id="emailLabel" for="email">Email:</label>
+
+        <input type="text" id="email" name="email">
+
+        <br><br>
+
+
+        <!-- Phone Number -->
+        <label id="phoneLabel" for="phone">Phone Number:</label>
+
+        <input type="text" id="phone" name="phone">
+
+        <br><br>
+
+
+        <!-- Password -->
+        <label id="passwordLabel" for="password">Password:</label>
+
+        <input type="password" id="password" name="password">
+
+        <br><br>
+
+
+        <!-- Confirm Password -->
+        <label id="confirmPasswordLabel" for="confirmPassword">
+            Confirm Password:
+        </label>
+
+        <input type="password" id="confirmPassword" name="confirmPassword">
+
+        <br><br>
+
+
+        <!-- Gender -->
+        <label id="genderLabel">Gender:</label>
+
+        <input type="radio" id="male" name="gender" value="Male">
+        <label for="male">Male</label>
+
+        <input type="radio" id="female" name="gender" value="Female">
+        <label for="female">Female</label>
+
+        <input type="radio" id="other" name="gender" value="Other">
+        <label for="other">Other</label>
+
+        <br><br>
+
+
+        <!-- Age Group -->
+        <label id="ageLabel" for="age">Age Group:</label>
+
+        <select id="age" name="age">
+
+            <option value=""></option>
+
+            <option value="under21">
+                &lt; 21 years old
+            </option>
+
+            <option value="21-25">
+                21 – 25 years old
+            </option>
+
+            <option value="26-35">
+                26 – 35 years old
+            </option>
+
+            <option value="36-50">
+                36 – 50 years old
+            </option>
+
+            <option value="50">
+                50 years old
+            </option>
+
+        </select>
+
+        <br><br>
+
+
+        <!-- Music Genre -->
+        <label id="musicLabel">Music Genre:</label>
+
+        <br>
+
+        <input type="checkbox" id="pop" name="music" value="Pop">
+        <label for="pop">Pop</label>
+
+        <br>
+
+        <input type="checkbox" id="hiphop" name="music" value="Hip-hop">
+        <label for="hiphop">Hip-hop</label>
+
+        <br>
+
+        <input type="checkbox" id="jazz" name="music" value="Jazz">
+        <label for="jazz">Jazz</label>
+
+        <br>
+
+        <input type="checkbox" id="rock" name="music" value="Rock">
+        <label for="rock">Rock</label>
+
+        <br>
+
+        <input type="checkbox" id="classical" name="music" value="Classical Music">
+        <label for="classical">Classical Music</label>
+
+        <br>
+
+        <input type="checkbox" id="country" name="music" value="Country">
+        <label for="country">Country</label>
+
+        <br><br>
+
+
+        <!-- Submit Button -->
+        <button type="button" id="submitButton">
+            Submit
+        </button>
+
+
+        <!-- Clear Button -->
+        <input type="reset" id="clearButton" value="Clear">
+
+    </form>
+
+
+    <!-- JavaScript File -->
+    <script src="validation.js"></script>
+
+</body>
+
+</html>
